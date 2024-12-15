@@ -16,7 +16,7 @@ function convertToMetric(text) {
   });
 }
 
-// Handle "Convert Page" button click
+// Handle "Convert Page" button click neew to be imporved doesn't get clicks only manual input
 document.getElementById("convertPage").addEventListener("click", () => {
   chrome.scripting.executeScript({
     target: { allFrames: true },
